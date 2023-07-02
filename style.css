@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -189,68 +188,59 @@ body {
   background-color: rgba(40, 54, 24, 0.682);
 }
 
-
-.gallery-img{
+.gallery-img {
   transition: 0.3s ease-in-out;
 }
-.gallery-img:hover{
+.gallery-img:hover {
   scale: 2;
   z-index: 2;
 }
 
 @media only screen and (max-width: 1000px) {
-  .gallery-img{
+  .gallery-img {
     transition: 0.3s ease-in-out;
   }
-  .gallery-img:hover{
+  .gallery-img:hover {
     scale: 1;
     z-index: 0;
   }
 }
 
-.w-90{
-  width: 90%!important;
+.w-90 {
+  width: 90% !important;
 }
 
-.fs-10{
+.fs-10 {
   font-size: xx-large;
 }
 
-.koteret-font{
-  font-family: 'Tinos', serif;
+.koteret-font {
+  font-family: "Tinos", serif;
   font-weight: 700;
 }
 
-.sub-font{
-  font-family: 'Tinos', serif;
+.sub-font {
+  font-family: "Tinos", serif;
   font-weight: 400;
 }
 
-.sticky-caller{
-
-  position: sticky;
-  top: 0;
-  z-index: ;
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  top: 80px;
+  right: 40px;
+  background-color: rgba(0, 0, 0, 0.682);
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
 }
 
-
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	top:80px;
-	right:40px;
-	background-color:#0C9;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+.my-float {
+  margin-top: 22px;
 }
 
-.my-float{
-	margin-top:22px;
-}
-
-.fs-10{
+.fs-10 {
   font-size: x-small;
 }
